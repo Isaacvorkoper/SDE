@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Birger_BolcherEntities">
+    <EntitySetMapping Name="Bolcher">
+      <EntityTypeMapping TypeName="Model.Bolcher">
+        <MappingFragment StoreEntitySet="Bolcher">
+          <ScalarProperty Name="idBolcher" ColumnName="idBolcher" />
+          <ScalarProperty Name="Navn" ColumnName="Navn" />
+          <ScalarProperty Name="Vaegt" ColumnName="Vaegt" />
+          <ScalarProperty Name="Pris" ColumnName="Pris" />
+          <ScalarProperty Name="Farver_FarverID" ColumnName="Farver_FarverID" />
+          <ScalarProperty Name="Surhed_surhedID" ColumnName="Surhed_surhedID" />
+          <ScalarProperty Name="Styrker_StyrkerID" ColumnName="Styrker_StyrkerID" />
+          <ScalarProperty Name="Smagstyper_SmagstyperID" ColumnName="Smagstyper_SmagstyperID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Farver">
+      <EntityTypeMapping TypeName="Model.Farver">
+        <MappingFragment StoreEntitySet="Farver">
+          <ScalarProperty Name="idFarver" ColumnName="idFarver" />
+          <ScalarProperty Name="Navn" ColumnName="Navn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Smagstyper">
+      <EntityTypeMapping TypeName="Model.Smagstyper">
+        <MappingFragment StoreEntitySet="Smagstyper">
+          <ScalarProperty Name="idSmagstyper" ColumnName="idSmagstyper" />
+          <ScalarProperty Name="Navn" ColumnName="Navn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Styrker">
+      <EntityTypeMapping TypeName="Model.Styrker">
+        <MappingFragment StoreEntitySet="Styrker">
+          <ScalarProperty Name="idStyrker" ColumnName="idStyrker" />
+          <ScalarProperty Name="Navn" ColumnName="Navn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Surhed">
+      <EntityTypeMapping TypeName="Model.Surhed">
+        <MappingFragment StoreEntitySet="Surhed">
+          <ScalarProperty Name="idSurhed" ColumnName="idSurhed" />
+          <ScalarProperty Name="Navn" ColumnName="Navn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

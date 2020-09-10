@@ -1,0 +1,6 @@
+C:\Users\isaac\source\repos\Opgave 7\bin\Debug\Opgave 7.exe.config
+C:\Users\isaac\source\repos\Opgave 7\bin\Debug\Opgave 7.exe
+C:\Users\isaac\source\repos\Opgave 7\bin\Debug\Opgave 7.pdb
+C:\Users\isaac\source\repos\Opgave 7\obj\Debug\Opgave 7.csprojAssemblyReference.cache
+C:\Users\isaac\source\repos\Opgave 7\obj\Debug\Opgave 7.exe
+C:\Users\isaac\source\repos\Opgave 7\obj\Debug\Opgave 7.pdb

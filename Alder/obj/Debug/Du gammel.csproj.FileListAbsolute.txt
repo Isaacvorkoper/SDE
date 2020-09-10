@@ -1,0 +1,13 @@
+C:\Users\isaac\source\repos\Du gammel\obj\Debug\Du gammel.csprojAssemblyReference.cache
+C:\Users\isaac\source\repos\Du gammel\obj\Debug\Du gammel.csproj.CoreCompileInputs.cache
+C:\Users\isaac\source\repos\Du gammel\bin\Debug\Du gammel.exe.config
+C:\Users\isaac\source\repos\Du gammel\bin\Debug\Du gammel.exe
+C:\Users\isaac\source\repos\Du gammel\bin\Debug\Du gammel.pdb
+C:\Users\isaac\source\repos\Du gammel\obj\Debug\Du gammel.exe
+C:\Users\isaac\source\repos\Du gammel\obj\Debug\Du gammel.pdb
+C:\Users\isaac\source\repos\Alder\bin\Debug\Du gammel.exe.config
+C:\Users\isaac\source\repos\Alder\bin\Debug\Du gammel.exe
+C:\Users\isaac\source\repos\Alder\bin\Debug\Du gammel.pdb
+C:\Users\isaac\source\repos\Alder\obj\Debug\Du gammel.csprojAssemblyReference.cache
+C:\Users\isaac\source\repos\Alder\obj\Debug\Du gammel.exe
+C:\Users\isaac\source\repos\Alder\obj\Debug\Du gammel.pdb

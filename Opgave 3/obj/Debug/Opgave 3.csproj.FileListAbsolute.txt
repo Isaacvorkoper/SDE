@@ -1,0 +1,5 @@
+C:\Users\isaac\source\repos\Opgave 3\bin\Debug\Opgave 3.exe.config
+C:\Users\isaac\source\repos\Opgave 3\bin\Debug\Opgave 3.exe
+C:\Users\isaac\source\repos\Opgave 3\bin\Debug\Opgave 3.pdb
+C:\Users\isaac\source\repos\Opgave 3\obj\Debug\Opgave 3.exe
+C:\Users\isaac\source\repos\Opgave 3\obj\Debug\Opgave 3.pdb

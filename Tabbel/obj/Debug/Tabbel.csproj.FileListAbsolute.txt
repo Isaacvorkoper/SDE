@@ -1,0 +1,6 @@
+C:\Users\isaac\source\repos\Tabbel\obj\Debug\Tabbel.csprojAssemblyReference.cache
+C:\Users\isaac\source\repos\Tabbel\bin\Debug\Tabbel.exe.config
+C:\Users\isaac\source\repos\Tabbel\bin\Debug\Tabbel.exe
+C:\Users\isaac\source\repos\Tabbel\bin\Debug\Tabbel.pdb
+C:\Users\isaac\source\repos\Tabbel\obj\Debug\Tabbel.exe
+C:\Users\isaac\source\repos\Tabbel\obj\Debug\Tabbel.pdb

@@ -1,0 +1,7 @@
+C:\Users\isaac\source\repos\Ludo\bin\Debug\Ludo.exe.config
+C:\Users\isaac\source\repos\Ludo\bin\Debug\Ludo.exe
+C:\Users\isaac\source\repos\Ludo\bin\Debug\Ludo.pdb
+C:\Users\isaac\source\repos\Ludo\obj\Debug\Ludo.csprojAssemblyReference.cache
+C:\Users\isaac\source\repos\Ludo\obj\Debug\Ludo.csproj.CoreCompileInputs.cache
+C:\Users\isaac\source\repos\Ludo\obj\Debug\Ludo.exe
+C:\Users\isaac\source\repos\Ludo\obj\Debug\Ludo.pdb

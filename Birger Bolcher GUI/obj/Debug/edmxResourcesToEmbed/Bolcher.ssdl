@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Bolcher">
+    <Key>
+      <PropertyRef Name="idBolcher" />
+    </Key>
+    <Property Name="idBolcher" Type="int" Nullable="false" />
+    <Property Name="Navn" Type="varchar" MaxLength="45" />
+    <Property Name="Vaegt" Type="varchar" MaxLength="45" />
+    <Property Name="Pris" Type="int" />
+    <Property Name="Farver_FarverID" Type="int" />
+    <Property Name="Surhed_surhedID" Type="int" />
+    <Property Name="Styrker_StyrkerID" Type="int" />
+    <Property Name="Smagstyper_SmagstyperID" Type="int" />
+  </EntityType>
+  <EntityType Name="Farver">
+    <Key>
+      <PropertyRef Name="idFarver" />
+    </Key>
+    <Property Name="idFarver" Type="int" Nullable="false" />
+    <Property Name="Navn" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="Smagstyper">
+    <Key>
+      <PropertyRef Name="idSmagstyper" />
+    </Key>
+    <Property Name="idSmagstyper" Type="int" Nullable="false" />
+    <Property Name="Navn" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="Styrker">
+    <Key>
+      <PropertyRef Name="idStyrker" />
+    </Key>
+    <Property Name="idStyrker" Type="int" Nullable="false" />
+    <Property Name="Navn" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="Surhed">
+    <Key>
+      <PropertyRef Name="idSurhed" />
+    </Key>
+    <Property Name="idSurhed" Type="int" Nullable="false" />
+    <Property Name="Navn" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <Association Name="FK__Bolcher__Farver___5165187F">
+    <End Role="Farver" Type="Self.Farver" Multiplicity="0..1" />
+    <End Role="Bolcher" Type="Self.Bolcher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Farver">
+        <PropertyRef Name="idFarver" />
+      </Principal>
+      <Dependent Role="Bolcher">
+        <PropertyRef Name="Farver_FarverID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bolcher__Smagsty__5441852A">
+    <End Role="Smagstyper" Type="Self.Smagstyper" Multiplicity="0..1" />
+    <End Role="Bolcher" Type="Self.Bolcher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Smagstyper">
+        <PropertyRef Name="idSmagstyper" />
+      </Principal>
+      <Dependent Role="Bolcher">
+        <PropertyRef Name="Smagstyper_SmagstyperID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bolcher__Styrker__534D60F1">
+    <End Role="Styrker" Type="Self.Styrker" Multiplicity="0..1" />
+    <End Role="Bolcher" Type="Self.Bolcher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Styrker">
+        <PropertyRef Name="idStyrker" />
+      </Principal>
+      <Dependent Role="Bolcher">
+        <PropertyRef Name="Styrker_StyrkerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bolcher__Surhed___52593CB8">
+    <End Role="Surhed" Type="Self.Surhed" Multiplicity="0..1" />
+    <End Role="Bolcher" Type="Self.Bolcher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Surhed">
+        <PropertyRef Name="idSurhed" />
+      </Principal>
+      <Dependent Role="Bolcher">
+        <PropertyRef Name="Surhed_surhedID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="Bolcher" EntityType="Self.Bolcher" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Farver" EntityType="Self.Farver" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Smagstyper" EntityType="Self.Smagstyper" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Styrker" EntityType="Self.Styrker" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Surhed" EntityType="Self.Surhed" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Bolcher__Farver___5165187F" Association="Self.FK__Bolcher__Farver___5165187F">
+      <End Role="Farver" EntitySet="Farver" />
+      <End Role="Bolcher" EntitySet="Bolcher" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bolcher__Smagsty__5441852A" Association="Self.FK__Bolcher__Smagsty__5441852A">
+      <End Role="Smagstyper" EntitySet="Smagstyper" />
+      <End Role="Bolcher" EntitySet="Bolcher" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bolcher__Styrker__534D60F1" Association="Self.FK__Bolcher__Styrker__534D60F1">
+      <End Role="Styrker" EntitySet="Styrker" />
+      <End Role="Bolcher" EntitySet="Bolcher" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bolcher__Surhed___52593CB8" Association="Self.FK__Bolcher__Surhed___52593CB8">
+      <End Role="Surhed" EntitySet="Surhed" />
+      <End Role="Bolcher" EntitySet="Bolcher" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

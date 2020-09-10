@@ -1,0 +1,6 @@
+C:\Users\isaac\source\repos\C Sharp Basic Exercises\bin\Debug\C Sharp Basic Exercises.exe.config
+C:\Users\isaac\source\repos\C Sharp Basic Exercises\bin\Debug\C Sharp Basic Exercises.exe
+C:\Users\isaac\source\repos\C Sharp Basic Exercises\bin\Debug\C Sharp Basic Exercises.pdb
+C:\Users\isaac\source\repos\C Sharp Basic Exercises\obj\Debug\Opgave 1.csprojAssemblyReference.cache
+C:\Users\isaac\source\repos\C Sharp Basic Exercises\obj\Debug\C Sharp Basic Exercises.exe
+C:\Users\isaac\source\repos\C Sharp Basic Exercises\obj\Debug\C Sharp Basic Exercises.pdb

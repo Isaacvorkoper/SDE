@@ -1,0 +1,6 @@
+C:\Users\isaac\source\repos\Opgavee 21\bin\Debug\Opgavee 21.exe.config
+C:\Users\isaac\source\repos\Opgavee 21\bin\Debug\Opgavee 21.exe
+C:\Users\isaac\source\repos\Opgavee 21\bin\Debug\Opgavee 21.pdb
+C:\Users\isaac\source\repos\Opgavee 21\obj\Debug\Opgavee 21.csprojAssemblyReference.cache
+C:\Users\isaac\source\repos\Opgavee 21\obj\Debug\Opgavee 21.exe
+C:\Users\isaac\source\repos\Opgavee 21\obj\Debug\Opgavee 21.pdb

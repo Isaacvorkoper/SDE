@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Bolcher">
+    <Key>
+      <PropertyRef Name="idBolcher" />
+    </Key>
+    <Property Name="idBolcher" Type="Int32" Nullable="false" />
+    <Property Name="Navn" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="Vaegt" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="Pris" Type="Int32" />
+    <Property Name="Farver_FarverID" Type="Int32" />
+    <Property Name="Surhed_surhedID" Type="Int32" />
+    <Property Name="Styrker_StyrkerID" Type="Int32" />
+    <Property Name="Smagstyper_SmagstyperID" Type="Int32" />
+    <NavigationProperty Name="Farver" Relationship="Self.FK__Bolcher__Farver___5165187F" FromRole="Bolcher" ToRole="Farver" />
+    <NavigationProperty Name="Smagstyper" Relationship="Self.FK__Bolcher__Smagsty__5441852A" FromRole="Bolcher" ToRole="Smagstyper" />
+    <NavigationProperty Name="Styrker" Relationship="Self.FK__Bolcher__Styrker__534D60F1" FromRole="Bolcher" ToRole="Styrker" />
+    <NavigationProperty Name="Surhed" Relationship="Self.FK__Bolcher__Surhed___52593CB8" FromRole="Bolcher" ToRole="Surhed" />
+  </EntityType>
+  <EntityType Name="Farver">
+    <Key>
+      <PropertyRef Name="idFarver" />
+    </Key>
+    <Property Name="idFarver" Type="Int32" Nullable="false" />
+    <Property Name="Navn" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bolcher" Relationship="Self.FK__Bolcher__Farver___5165187F" FromRole="Farver" ToRole="Bolcher" />
+  </EntityType>
+  <EntityType Name="Smagstyper">
+    <Key>
+      <PropertyRef Name="idSmagstyper" />
+    </Key>
+    <Property Name="idSmagstyper" Type="Int32" Nullable="false" />
+    <Property Name="Navn" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bolcher" Relationship="Self.FK__Bolcher__Smagsty__5441852A" FromRole="Smagstyper" ToRole="Bolcher" />
+  </EntityType>
+  <EntityType Name="Styrker">
+    <Key>
+      <PropertyRef Name="idStyrker" />
+    </Key>
+    <Property Name="idStyrker" Type="Int32" Nullable="false" />
+    <Property Name="Navn" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bolcher" Relationship="Self.FK__Bolcher__Styrker__534D60F1" FromRole="Styrker" ToRole="Bolcher" />
+  </EntityType>
+  <EntityType Name="Surhed">
+    <Key>
+      <PropertyRef Name="idSurhed" />
+    </Key>
+    <Property Name="idSurhed" Type="Int32" Nullable="false" />
+    <Property Name="Navn" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bolcher" Relationship="Self.FK__Bolcher__Surhed___52593CB8" FromRole="Surhed" ToRole="Bolcher" />
+  </EntityType>
+  <Association Name="FK__Bolcher__Farver___5165187F">
+    <End Role="Farver" Type="Self.Farver" Multiplicity="0..1" />
+    <End Role="Bolcher" Type="Self.Bolcher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Farver">
+        <PropertyRef Name="idFarver" />
+      </Principal>
+      <Dependent Role="Bolcher">
+        <PropertyRef Name="Farver_FarverID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bolcher__Smagsty__5441852A">
+    <End Role="Smagstyper" Type="Self.Smagstyper" Multiplicity="0..1" />
+    <End Role="Bolcher" Type="Self.Bolcher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Smagstyper">
+        <PropertyRef Name="idSmagstyper" />
+      </Principal>
+      <Dependent Role="Bolcher">
+        <PropertyRef Name="Smagstyper_SmagstyperID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bolcher__Styrker__534D60F1">
+    <End Role="Styrker" Type="Self.Styrker" Multiplicity="0..1" />
+    <End Role="Bolcher" Type="Self.Bolcher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Styrker">
+        <PropertyRef Name="idStyrker" />
+      </Principal>
+      <Dependent Role="Bolcher">
+        <PropertyRef Name="Styrker_StyrkerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bolcher__Surhed___52593CB8">
+    <End Role="Surhed" Type="Self.Surhed" Multiplicity="0..1" />
+    <End Role="Bolcher" Type="Self.Bolcher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Surhed">
+        <PropertyRef Name="idSurhed" />
+      </Principal>
+      <Dependent Role="Bolcher">
+        <PropertyRef Name="Surhed_surhedID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Birger_BolcherEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Bolcher" EntityType="Self.Bolcher" />
+    <EntitySet Name="Farver" EntityType="Self.Farver" />
+    <EntitySet Name="Smagstyper" EntityType="Self.Smagstyper" />
+    <EntitySet Name="Styrker" EntityType="Self.Styrker" />
+    <EntitySet Name="Surhed" EntityType="Self.Surhed" />
+    <AssociationSet Name="FK__Bolcher__Farver___5165187F" Association="Self.FK__Bolcher__Farver___5165187F">
+      <End Role="Farver" EntitySet="Farver" />
+      <End Role="Bolcher" EntitySet="Bolcher" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bolcher__Smagsty__5441852A" Association="Self.FK__Bolcher__Smagsty__5441852A">
+      <End Role="Smagstyper" EntitySet="Smagstyper" />
+      <End Role="Bolcher" EntitySet="Bolcher" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bolcher__Styrker__534D60F1" Association="Self.FK__Bolcher__Styrker__534D60F1">
+      <End Role="Styrker" EntitySet="Styrker" />
+      <End Role="Bolcher" EntitySet="Bolcher" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bolcher__Surhed___52593CB8" Association="Self.FK__Bolcher__Surhed___52593CB8">
+      <End Role="Surhed" EntitySet="Surhed" />
+      <End Role="Bolcher" EntitySet="Bolcher" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

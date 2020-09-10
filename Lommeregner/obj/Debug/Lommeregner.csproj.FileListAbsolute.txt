@@ -1,0 +1,7 @@
+C:\Users\isaac\source\repos\Lommeregner\bin\Debug\Lommeregner.exe.config
+C:\Users\isaac\source\repos\Lommeregner\bin\Debug\Lommeregner.exe
+C:\Users\isaac\source\repos\Lommeregner\bin\Debug\Lommeregner.pdb
+C:\Users\isaac\source\repos\Lommeregner\obj\Debug\Lommeregner.csprojAssemblyReference.cache
+C:\Users\isaac\source\repos\Lommeregner\obj\Debug\Lommeregner.csproj.CoreCompileInputs.cache
+C:\Users\isaac\source\repos\Lommeregner\obj\Debug\Lommeregner.exe
+C:\Users\isaac\source\repos\Lommeregner\obj\Debug\Lommeregner.pdb

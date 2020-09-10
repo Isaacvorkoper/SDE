@@ -1,0 +1,11 @@
+C:\Users\isaac\source\repos\Birger Bolcher\bin\Debug\Birger Bolcher.exe.config
+C:\Users\isaac\source\repos\Birger Bolcher\bin\Debug\Birger Bolcher.exe
+C:\Users\isaac\source\repos\Birger Bolcher\bin\Debug\Birger Bolcher.pdb
+C:\Users\isaac\source\repos\Birger Bolcher\bin\Debug\Birger Bolcher.xml
+C:\Users\isaac\source\repos\Birger Bolcher\obj\Debug\Birger Bolcher.vbprojAssemblyReference.cache
+C:\Users\isaac\source\repos\Birger Bolcher\obj\Debug\Birger_Bolcher.Form1.resources
+C:\Users\isaac\source\repos\Birger Bolcher\obj\Debug\Birger_Bolcher.Resources.resources
+C:\Users\isaac\source\repos\Birger Bolcher\obj\Debug\Birger Bolcher.vbproj.GenerateResource.cache
+C:\Users\isaac\source\repos\Birger Bolcher\obj\Debug\Birger Bolcher.exe
+C:\Users\isaac\source\repos\Birger Bolcher\obj\Debug\Birger Bolcher.xml
+C:\Users\isaac\source\repos\Birger Bolcher\obj\Debug\Birger Bolcher.pdb

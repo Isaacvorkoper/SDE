@@ -1,0 +1,5 @@
+C:\Users\isaac\source\repos\Opgavee 17\bin\Debug\Opgavee 17.exe.config
+C:\Users\isaac\source\repos\Opgavee 17\bin\Debug\Opgavee 17.exe
+C:\Users\isaac\source\repos\Opgavee 17\bin\Debug\Opgavee 17.pdb
+C:\Users\isaac\source\repos\Opgavee 17\obj\Debug\Opgavee 17.exe
+C:\Users\isaac\source\repos\Opgavee 17\obj\Debug\Opgavee 17.pdb

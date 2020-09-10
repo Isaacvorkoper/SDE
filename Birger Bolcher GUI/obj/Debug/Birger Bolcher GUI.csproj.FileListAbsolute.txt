@@ -1,0 +1,25 @@
+C:\Users\isaac\source\repos\Birger Bolcher GUI\bin\Debug\Birger Bolcher GUI.exe.config
+C:\Users\isaac\source\repos\Birger Bolcher GUI\bin\Debug\Birger Bolcher GUI.exe
+C:\Users\isaac\source\repos\Birger Bolcher GUI\bin\Debug\Birger Bolcher GUI.pdb
+C:\Users\isaac\source\repos\Birger Bolcher GUI\obj\Debug\Birger Bolcher GUI.csprojAssemblyReference.cache
+C:\Users\isaac\source\repos\Birger Bolcher GUI\obj\Debug\MainWindow.g.cs
+C:\Users\isaac\source\repos\Birger Bolcher GUI\obj\Debug\App.g.cs
+C:\Users\isaac\source\repos\Birger Bolcher GUI\obj\Debug\Birger Bolcher GUI_MarkupCompile.cache
+C:\Users\isaac\source\repos\Birger Bolcher GUI\obj\Debug\Birger Bolcher GUI_MarkupCompile.lref
+C:\Users\isaac\source\repos\Birger Bolcher GUI\obj\Debug\MainWindow.baml
+C:\Users\isaac\source\repos\Birger Bolcher GUI\obj\Debug\Birger Bolcher GUI.g.resources
+C:\Users\isaac\source\repos\Birger Bolcher GUI\obj\Debug\Birger_Bolcher_GUI.Properties.Resources.resources
+C:\Users\isaac\source\repos\Birger Bolcher GUI\obj\Debug\Birger Bolcher GUI.csproj.GenerateResource.cache
+C:\Users\isaac\source\repos\Birger Bolcher GUI\obj\Debug\Birger Bolcher GUI.exe
+C:\Users\isaac\source\repos\Birger Bolcher GUI\obj\Debug\Birger Bolcher GUI.pdb
+C:\Users\isaac\source\repos\Birger Bolcher GUI\obj\Debug\BirgerBolcherHome.g.cs
+C:\Users\isaac\source\repos\Birger Bolcher GUI\obj\Debug\BirgerBolcherHome.baml
+C:\Users\isaac\source\repos\Birger Bolcher GUI\bin\Debug\EntityFramework.dll
+C:\Users\isaac\source\repos\Birger Bolcher GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\isaac\source\repos\Birger Bolcher GUI\bin\Debug\EntityFramework.xml
+C:\Users\isaac\source\repos\Birger Bolcher GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\isaac\source\repos\Birger Bolcher GUI\obj\Debug\Birger Bolcher GUI.csproj.CopyComplete
+C:\Users\isaac\source\repos\Birger Bolcher GUI\bin\Debug\Microsoft.Azure.Management.Sql.dll
+C:\Users\isaac\source\repos\Birger Bolcher GUI\bin\Debug\Hyak.Common.dll
+C:\Users\isaac\source\repos\Birger Bolcher GUI\bin\Debug\Microsoft.Azure.Common.dll
+C:\Users\isaac\source\repos\Birger Bolcher GUI\bin\Debug\Newtonsoft.Json.dll

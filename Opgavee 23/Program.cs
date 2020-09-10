@@ -10,7 +10,9 @@ namespace Opgavee_23
     {
         static void Main(string[] args)
         {
+            string line = "TEST TEST TEST TEST TEST.";
 
+            Console.WriteLine(line.ToLower());
         }
     }
 }

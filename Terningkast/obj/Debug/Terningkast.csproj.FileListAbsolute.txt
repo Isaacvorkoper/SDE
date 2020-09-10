@@ -1,0 +1,7 @@
+C:\Users\isaac\source\repos\Terningkast\obj\Debug\Terningkast.csprojAssemblyReference.cache
+C:\Users\isaac\source\repos\Terningkast\obj\Debug\Terningkast.csproj.CoreCompileInputs.cache
+C:\Users\isaac\source\repos\Terningkast\bin\Debug\Terningkast.exe.config
+C:\Users\isaac\source\repos\Terningkast\bin\Debug\Terningkast.exe
+C:\Users\isaac\source\repos\Terningkast\bin\Debug\Terningkast.pdb
+C:\Users\isaac\source\repos\Terningkast\obj\Debug\Terningkast.exe
+C:\Users\isaac\source\repos\Terningkast\obj\Debug\Terningkast.pdb
