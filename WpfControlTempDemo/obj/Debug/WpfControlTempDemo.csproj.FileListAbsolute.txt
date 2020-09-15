@@ -1,0 +1,15 @@
+C:\Users\isaac\source\repos\WpfControlTempDemo\bin\Debug\WpfControlTempDemo.exe.config
+C:\Users\isaac\source\repos\WpfControlTempDemo\bin\Debug\WpfControlTempDemo.exe
+C:\Users\isaac\source\repos\WpfControlTempDemo\bin\Debug\WpfControlTempDemo.pdb
+C:\Users\isaac\source\repos\WpfControlTempDemo\obj\Debug\WpfControlTempDemo.csprojAssemblyReference.cache
+C:\Users\isaac\source\repos\WpfControlTempDemo\obj\Debug\MainWindow.g.cs
+C:\Users\isaac\source\repos\WpfControlTempDemo\obj\Debug\App.g.cs
+C:\Users\isaac\source\repos\WpfControlTempDemo\obj\Debug\WpfControlTempDemo_MarkupCompile.cache
+C:\Users\isaac\source\repos\WpfControlTempDemo\obj\Debug\WpfControlTempDemo_MarkupCompile.lref
+C:\Users\isaac\source\repos\WpfControlTempDemo\obj\Debug\MainWindow.baml
+C:\Users\isaac\source\repos\WpfControlTempDemo\obj\Debug\WpfControlTempDemo.g.resources
+C:\Users\isaac\source\repos\WpfControlTempDemo\obj\Debug\WpfControlTempDemo.Properties.Resources.resources
+C:\Users\isaac\source\repos\WpfControlTempDemo\obj\Debug\WpfControlTempDemo.csproj.GenerateResource.cache
+C:\Users\isaac\source\repos\WpfControlTempDemo\obj\Debug\WpfControlTempDemo.csproj.CoreCompileInputs.cache
+C:\Users\isaac\source\repos\WpfControlTempDemo\obj\Debug\WpfControlTempDemo.exe
+C:\Users\isaac\source\repos\WpfControlTempDemo\obj\Debug\WpfControlTempDemo.pdb

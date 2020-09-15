@@ -30,6 +30,7 @@ namespace WpfBasics
             MessageBox.Show($"The description is: {this.DescriptionText.Text}");
         }
 
+        // Unticks selected buttons
         private void ResetButton_Click(object sender, RoutedEventArgs e)
         {
             this.WeldCheckbox.IsChecked = this.AssemblyCheckbox.IsChecked = this.PlasmaCheckbox.IsChecked = this.LaserCheckbox.IsChecked = this.PurchaseCheckbox.IsChecked =
@@ -57,6 +58,7 @@ namespace WpfBasics
             FinishDropdown_SelectionChanged(this.FinishDropdown, null);
         }
 
+        //Prints the text from supplier name in mass box
         private void SupplierNameText_TextChanged(object sender, TextChangedEventArgs e)
         {
             this.MassText.Text = this.SupplierNameText.Text;

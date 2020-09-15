@@ -103,7 +103,7 @@
 
             <!-- Mass -->
             <TextBlock Text="Mass" />
-            <TextBox x:Name="MassText" Background="#eee" Padding="2" />
+            <TextBox IsReadOnly="True" x:Name="MassText" Background="#eee" Padding="2" />
 
             <!-- Finish -->
             <TextBlock Text="Finish" />

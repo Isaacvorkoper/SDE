@@ -1,0 +1,16 @@
+C:\Users\isaac\source\repos\WpfConverterDemo\obj\Debug\App.g.cs
+C:\Users\isaac\source\repos\WpfConverterDemo\obj\Debug\WpfConverterDemo_MarkupCompile.cache
+C:\Users\isaac\source\repos\WpfConverterDemo\bin\Debug\WpfConverterDemo.exe.config
+C:\Users\isaac\source\repos\WpfConverterDemo\bin\Debug\WpfConverterDemo.exe
+C:\Users\isaac\source\repos\WpfConverterDemo\bin\Debug\WpfConverterDemo.pdb
+C:\Users\isaac\source\repos\WpfConverterDemo\obj\Debug\MainWindow.g.cs
+C:\Users\isaac\source\repos\WpfConverterDemo\obj\Debug\WpfConverterDemo_MarkupCompile.lref
+C:\Users\isaac\source\repos\WpfConverterDemo\obj\Debug\MainWindow.baml
+C:\Users\isaac\source\repos\WpfConverterDemo\obj\Debug\WpfConverterDemo.g.resources
+C:\Users\isaac\source\repos\WpfConverterDemo\obj\Debug\WpfConverterDemo.Properties.Resources.resources
+C:\Users\isaac\source\repos\WpfConverterDemo\obj\Debug\WpfConverterDemo.csproj.GenerateResource.cache
+C:\Users\isaac\source\repos\WpfConverterDemo\obj\Debug\WpfConverterDemo.csproj.CoreCompileInputs.cache
+C:\Users\isaac\source\repos\WpfConverterDemo\obj\Debug\WpfConverterDemo.exe
+C:\Users\isaac\source\repos\WpfConverterDemo\obj\Debug\WpfConverterDemo.pdb
+C:\Users\isaac\source\repos\WpfConverterDemo\obj\Debug\WpfConverterDemo.csprojAssemblyReference.cache
+C:\Users\isaac\source\repos\WpfConverterDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs

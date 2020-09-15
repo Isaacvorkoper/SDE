@@ -1,0 +1,16 @@
+C:\Users\isaac\source\repos\WpfDataTempDemo\obj\Debug\WpfDataTempDemo.csprojAssemblyReference.cache
+C:\Users\isaac\source\repos\WpfDataTempDemo\obj\Debug\App.g.cs
+C:\Users\isaac\source\repos\WpfDataTempDemo\obj\Debug\WpfDataTempDemo_MarkupCompile.cache
+C:\Users\isaac\source\repos\WpfDataTempDemo\bin\Debug\WpfDataTempDemo.exe.config
+C:\Users\isaac\source\repos\WpfDataTempDemo\bin\Debug\WpfDataTempDemo.exe
+C:\Users\isaac\source\repos\WpfDataTempDemo\bin\Debug\WpfDataTempDemo.pdb
+C:\Users\isaac\source\repos\WpfDataTempDemo\obj\Debug\MainWindow.g.cs
+C:\Users\isaac\source\repos\WpfDataTempDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\isaac\source\repos\WpfDataTempDemo\obj\Debug\WpfDataTempDemo_MarkupCompile.lref
+C:\Users\isaac\source\repos\WpfDataTempDemo\obj\Debug\MainWindow.baml
+C:\Users\isaac\source\repos\WpfDataTempDemo\obj\Debug\WpfDataTempDemo.g.resources
+C:\Users\isaac\source\repos\WpfDataTempDemo\obj\Debug\WpfDataTempDemo.Properties.Resources.resources
+C:\Users\isaac\source\repos\WpfDataTempDemo\obj\Debug\WpfDataTempDemo.csproj.GenerateResource.cache
+C:\Users\isaac\source\repos\WpfDataTempDemo\obj\Debug\WpfDataTempDemo.csproj.CoreCompileInputs.cache
+C:\Users\isaac\source\repos\WpfDataTempDemo\obj\Debug\WpfDataTempDemo.exe
+C:\Users\isaac\source\repos\WpfDataTempDemo\obj\Debug\WpfDataTempDemo.pdb
